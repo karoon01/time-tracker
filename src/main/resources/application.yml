@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: time-tracker
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    username: root
+    password: WezersHero22
+    url: jdbc:mysql://localhost:3306/time_trackerr
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+management:
+  endpoint:
+    health:
+      show-details: always
+
+jwt:
+  secret: fg3u23b35ujfub3iu3hoi5nijb5ijbibjibfrh4iohfi4hfui4hoi5f34huhuh343dgf4644f4f
+  expired: 100000000
